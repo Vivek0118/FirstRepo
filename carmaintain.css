@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+/*font Philosopher imported form googlr fonts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+} /*here  style applying to whole html file*/
+
+
+a, a:hover{
+    text-decoration: none;
+    color: #fff;
+}    
+/* herwe am styling anchor tags */
+
+ul{
+    list-style: none;
+
+}
+/* styling ul tags */
+
+li{ 
+    display: inline-block;
+
+}
+/*  adjusting float and position to li tags using displsy box*/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: #26284e;
+}
+/* setting height & width and bg color to section */
+
+.header .nav-bar{
+
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+/* class nav-bar and header styling */
+
+.header .nav-bar .logo{
+    margin-left: 50px;
+
+}
+.header .nav-bar .logo a{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* to make capitalize */
+}
+/* here it will set font size & weight, text changes of which is under div class logo -->a */
+
+.header .nav-bar .menu ul li {
+    margin-right: 30px;
+}
+/* it changes the styling of which is under div class menu -->ul and li and it will move content to right side */
+
+
+.header .nav-bar .menu ul li a{
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: all 0.8s;
+  opacity: 0.6;
+
+}
+.header .nav-bar .menu ul li a.Active{
+    opacity: 1;
+
+}
+/* it changes the styling of which is under div class menu --> ul -->li-->a class Active */
+
+.header .nav-bar .menu ul li a:hover{
+    opacity: 1;
+
+}
+/* it changes the styling of which is under div class menu --> ul -->li-->a*/
+/* it changes its opacity 0.6 to 1 when cursor on its content*/
+
+.socialMedia{
+    width: 50px;
+    height: 40px;
+} 
+
+
